@@ -1,5 +1,7 @@
 # Mangrove Change on the Merauke Coast 2005–2025 and Its Relation to Shoreline Erosion (P04)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24515878.svg)](https://doi.org/10.5281/zenodo.24515878)
+
 Code, data and results for the study *"Mangrove Change on the Merauke Coast, Indonesia, 2005–2025 and Its Relation to Shoreline Erosion: Landsat Mapping with Labels from Global Map Agreement"*.
 
 > **Ringkasan (ID):** Repositori ini berisi notebook, data, dan tabel hasil pemetaan mangrove pesisir Kota Merauke pada lima epoch (2005–2025) dari Landsat dengan Random Forest, menggunakan label dari kesepakatan Global Mangrove Watch v3 dan CGMD-Extent30 (tanpa survei lapangan), serta analisis hubungan lebar mangrove dengan laju abrasi pada transek P01. Semua tabel dan gambar tersedia dalam versi Indonesia (_ID) dan Inggris (_EN).
