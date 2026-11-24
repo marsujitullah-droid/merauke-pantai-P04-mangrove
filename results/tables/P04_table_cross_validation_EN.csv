@@ -1,0 +1,6 @@
+scheme,test_epoch,overall_accuracy,F1_mangrove,kappa,n_test
+Spatial (5 folds),All,0.993,0.9918,0.9856,27996
+Spatial + cross-epoch,2005,0.9923,0.991,0.9842,7000
+Spatial + cross-epoch,2010,0.9923,0.9911,0.9843,6997
+Spatial + cross-epoch,2015,0.9859,0.9833,0.971,6999
+Spatial + cross-epoch,2020,0.9889,0.987,0.9772,7000

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Mangrove change on the Merauke coast 2005–2025 and its relation to shoreline erosion (Coastal package P04): code and data"
+type: software
+authors:
+  - family-names: "Marsujitullah"
+    affiliation: "[INSTITUSI]"
+version: "1.0.0"
+license: MIT
+keywords:
+  - mangrove
+  - coastal erosion
+  - Landsat
+  - Random Forest
+  - Global Mangrove Watch
+  - Google Earth Engine
+  - Merauke
+references:
+  - type: dataset
+    title: "Satellite-derived shoreline change along the Merauke coast 2005–2025 and projection to 2035 (Coastal package P01): code and data"
+    authors:
+      - family-names: "Marsujitullah"
+    doi: "10.5281/zenodo.24421128"

@@ -1,0 +1,5 @@
+class,n_reference_pixels,detected_pct
+Loss (references agree),261,63.2
+Gain (references agree),264,84.5
+Stable mangrove (references agree),27399,96.1
+Stable non-mangrove (references agree),3884400,99.4

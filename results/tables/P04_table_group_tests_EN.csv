@@ -1,0 +1,4 @@
+test,statistic,p_value,CI95_low,CI95_high
+Mann-Whitney U,67655.5,0.07738986832867485,,
+Median LRR_veg difference (mangrove − non),0.4926999999999999,,-0.66553125,1.30486
+Cliff's delta,0.07869100765306122,,-0.15596051771784866,0.3198209552594521

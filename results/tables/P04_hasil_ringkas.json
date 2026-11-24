@@ -1,0 +1,431 @@
+{
+  "bbox": [
+    140.15,
+    -8.8,
+    140.75,
+    -8.3
+  ],
+  "epoch": [
+    2005,
+    2010,
+    2015,
+    2020,
+    2025
+  ],
+  "citra_per_epoch": {
+    "2005": 76,
+    "2010": 54,
+    "2015": 92,
+    "2020": 62,
+    "2025": 18
+  },
+  "ambang_air": 0.13658961653709412,
+  "peta_acuan": [
+    "CGMD_2005",
+    "CGMD_2010",
+    "CGMD_2015",
+    "CGMD_2020",
+    "CGMD_2023",
+    "GMW_2007",
+    "GMW_2010",
+    "GMW_2015",
+    "GMW_2020",
+    "WorldCover_2021"
+  ],
+  "n_titik_latih": {
+    "mangrove": 3000,
+    "daratan": 3000,
+    "air": 1000
+  },
+  "validasi": [
+    {
+      "skema": "Spasial (5 lipatan)",
+      "epoch_uji": "Semua",
+      "akurasi": 0.993,
+      "F1_mangrove": 0.9918,
+      "kappa": 0.9856,
+      "n_uji": 27996
+    },
+    {
+      "skema": "Spasial + antar-epoch",
+      "epoch_uji": "2005",
+      "akurasi": 0.9923,
+      "F1_mangrove": 0.991,
+      "kappa": 0.9842,
+      "n_uji": 7000
+    },
+    {
+      "skema": "Spasial + antar-epoch",
+      "epoch_uji": "2010",
+      "akurasi": 0.9923,
+      "F1_mangrove": 0.9911,
+      "kappa": 0.9843,
+      "n_uji": 6997
+    },
+    {
+      "skema": "Spasial + antar-epoch",
+      "epoch_uji": "2015",
+      "akurasi": 0.9859,
+      "F1_mangrove": 0.9833,
+      "kappa": 0.971,
+      "n_uji": 6999
+    },
+    {
+      "skema": "Spasial + antar-epoch",
+      "epoch_uji": "2020",
+      "akurasi": 0.9889,
+      "F1_mangrove": 0.987,
+      "kappa": 0.9772,
+      "n_uji": 7000
+    }
+  ],
+  "luas": [
+    {
+      "sumber": "Peta ini",
+      "tahun": 2005,
+      "luas_ha": 5234.5
+    },
+    {
+      "sumber": "Peta ini",
+      "tahun": 2010,
+      "luas_ha": 6431.8
+    },
+    {
+      "sumber": "Peta ini",
+      "tahun": 2015,
+      "luas_ha": 4574.1
+    },
+    {
+      "sumber": "Peta ini",
+      "tahun": 2020,
+      "luas_ha": 5593.2
+    },
+    {
+      "sumber": "Peta ini",
+      "tahun": 2025,
+      "luas_ha": 6340.4
+    },
+    {
+      "sumber": "GMW",
+      "tahun": 2007,
+      "luas_ha": 2784.9
+    },
+    {
+      "sumber": "GMW",
+      "tahun": 2010,
+      "luas_ha": 2786.2
+    },
+    {
+      "sumber": "GMW",
+      "tahun": 2015,
+      "luas_ha": 2774.2
+    },
+    {
+      "sumber": "GMW",
+      "tahun": 2020,
+      "luas_ha": 2705.8
+    },
+    {
+      "sumber": "CGMD",
+      "tahun": 2005,
+      "luas_ha": 4893.2
+    },
+    {
+      "sumber": "CGMD",
+      "tahun": 2010,
+      "luas_ha": 5069.1
+    },
+    {
+      "sumber": "CGMD",
+      "tahun": 2015,
+      "luas_ha": 4971.5
+    },
+    {
+      "sumber": "CGMD",
+      "tahun": 2020,
+      "luas_ha": 4964.1
+    },
+    {
+      "sumber": "CGMD",
+      "tahun": 2023,
+      "luas_ha": 4979.8
+    },
+    {
+      "sumber": "WorldCover",
+      "tahun": 2021,
+      "luas_ha": 2497.1
+    }
+  ],
+  "kesesuaian": [
+    {
+      "peta_acuan": "CGMD 2005",
+      "epoch_peta": 2005,
+      "presisi": 0.8124,
+      "recall": 0.8691,
+      "F1_mangrove": 0.8398
+    },
+    {
+      "peta_acuan": "GMW 2007",
+      "epoch_peta": 2005,
+      "presisi": 0.4798,
+      "recall": 0.9019,
+      "F1_mangrove": 0.6264
+    },
+    {
+      "peta_acuan": "GMW 2010",
+      "epoch_peta": 2010,
+      "presisi": 0.4029,
+      "recall": 0.93,
+      "F1_mangrove": 0.5622
+    },
+    {
+      "peta_acuan": "CGMD 2010",
+      "epoch_peta": 2010,
+      "presisi": 0.7165,
+      "recall": 0.9091,
+      "F1_mangrove": 0.8014
+    },
+    {
+      "peta_acuan": "GMW 2015",
+      "epoch_peta": 2015,
+      "presisi": 0.5375,
+      "recall": 0.8862,
+      "F1_mangrove": 0.6692
+    },
+    {
+      "peta_acuan": "CGMD 2015",
+      "epoch_peta": 2015,
+      "presisi": 0.8999,
+      "recall": 0.8279,
+      "F1_mangrove": 0.8624
+    },
+    {
+      "peta_acuan": "GMW 2020",
+      "epoch_peta": 2020,
+      "presisi": 0.4451,
+      "recall": 0.9201,
+      "F1_mangrove": 0.6
+    },
+    {
+      "peta_acuan": "CGMD 2020",
+      "epoch_peta": 2020,
+      "presisi": 0.7923,
+      "recall": 0.8927,
+      "F1_mangrove": 0.8395
+    },
+    {
+      "peta_acuan": "WorldCover 2021",
+      "epoch_peta": 2020,
+      "presisi": 0.4316,
+      "recall": 0.9667,
+      "F1_mangrove": 0.5968
+    },
+    {
+      "peta_acuan": "CGMD 2023",
+      "epoch_peta": 2025,
+      "presisi": 0.6957,
+      "recall": 0.8858,
+      "F1_mangrove": 0.7794
+    },
+    {
+      "peta_acuan": "WorldCover 2021",
+      "epoch_peta": 2025,
+      "presisi": 0.3802,
+      "recall": 0.9654,
+      "F1_mangrove": 0.5456
+    },
+    {
+      "peta_acuan": "CGMD 2010",
+      "epoch_peta": "GMW 2010",
+      "presisi": 0.9329,
+      "recall": 0.5128,
+      "F1_mangrove": 0.6618
+    },
+    {
+      "peta_acuan": "CGMD 2015",
+      "epoch_peta": "GMW 2015",
+      "presisi": 0.929,
+      "recall": 0.5184,
+      "F1_mangrove": 0.6654
+    },
+    {
+      "peta_acuan": "CGMD 2020",
+      "epoch_peta": "GMW 2020",
+      "presisi": 0.9293,
+      "recall": 0.5065,
+      "F1_mangrove": 0.6557
+    },
+    {
+      "peta_acuan": "CGMD 2020",
+      "epoch_peta": "WorldCover 2021",
+      "presisi": 0.969,
+      "recall": 0.4874,
+      "F1_mangrove": 0.6486
+    }
+  ],
+  "perubahan_periode": [
+    {
+      "periode": "2005–2010",
+      "hilang_ha": 292.2,
+      "bertambah_ha": 1489.6,
+      "bersih_ha": 1197.4,
+      "laju_bersih_persen_per_thn": 4.57
+    },
+    {
+      "periode": "2010–2015",
+      "hilang_ha": 1967.8,
+      "bertambah_ha": 110.0,
+      "bersih_ha": -1857.8,
+      "laju_bersih_persen_per_thn": -5.78
+    },
+    {
+      "periode": "2015–2020",
+      "hilang_ha": 187.7,
+      "bertambah_ha": 1206.9,
+      "bersih_ha": 1019.2,
+      "laju_bersih_persen_per_thn": 4.46
+    },
+    {
+      "periode": "2020–2025",
+      "hilang_ha": 626.7,
+      "bertambah_ha": 1373.8,
+      "bersih_ha": 747.2,
+      "laju_bersih_persen_per_thn": 2.67
+    },
+    {
+      "periode": "2005–2025",
+      "hilang_ha": 806.2,
+      "bertambah_ha": 1912.1,
+      "bersih_ha": 1105.9,
+      "laju_bersih_persen_per_thn": 1.06
+    }
+  ],
+  "transisi": [
+    {
+      "kelas": "Mangrove stabil",
+      "luas_ha": 4428.3,
+      "persen": NaN
+    },
+    {
+      "kelas": "Hilang ke air",
+      "luas_ha": 24.9,
+      "persen": 3.1
+    },
+    {
+      "kelas": "Hilang ke daratan lain",
+      "luas_ha": 781.3,
+      "persen": 96.9
+    },
+    {
+      "kelas": "Bertambah dari air",
+      "luas_ha": 94.0,
+      "persen": 4.9
+    },
+    {
+      "kelas": "Bertambah dari daratan",
+      "luas_ha": 1818.2,
+      "persen": 95.1
+    }
+  ],
+  "cek_perubahan": [
+    {
+      "kelas": "Hilang (acuan sepakat)",
+      "n_piksel_acuan": 261,
+      "terdeteksi_persen": 63.2
+    },
+    {
+      "kelas": "Bertambah (acuan sepakat)",
+      "n_piksel_acuan": 264,
+      "terdeteksi_persen": 84.5
+    },
+    {
+      "kelas": "Mangrove stabil (acuan sepakat)",
+      "n_piksel_acuan": 27399,
+      "terdeteksi_persen": 96.1
+    },
+    {
+      "kelas": "Bukan mangrove stabil (acuan sepakat)",
+      "n_piksel_acuan": 3884400,
+      "terdeteksi_persen": 99.4
+    }
+  ],
+  "kelompok_transek": [
+    {
+      "tipe_depan": "Depan mangrove",
+      "n_transek": 256,
+      "median_LRR_veg": -0.558,
+      "abrasi_signifikan_persen": 51.562,
+      "median_lebar_2005_m": 405.0,
+      "median_lebar_2025_m": 457.5
+    },
+    {
+      "tipe_depan": "Depan bukan mangrove",
+      "n_transek": 490,
+      "median_LRR_veg": -1.051,
+      "abrasi_signifikan_persen": 60.816,
+      "median_lebar_2005_m": 0.0,
+      "median_lebar_2025_m": 35.0
+    },
+    {
+      "tipe_depan": "Semua",
+      "n_transek": 746,
+      "median_LRR_veg": -0.867,
+      "abrasi_signifikan_persen": 57.641,
+      "median_lebar_2005_m": 120.0,
+      "median_lebar_2025_m": 135.0
+    }
+  ],
+  "uji": [
+    {
+      "uji": "Mann-Whitney U",
+      "statistik": 67655.5,
+      "nilai_p": 0.07738986832867485,
+      "CI95_bawah": NaN,
+      "CI95_atas": NaN
+    },
+    {
+      "uji": "Selisih median LRR_veg (mangrove − bukan)",
+      "statistik": 0.4926999999999999,
+      "nilai_p": NaN,
+      "CI95_bawah": -0.66553125,
+      "CI95_atas": 1.30486
+    },
+    {
+      "uji": "Cliff delta",
+      "statistik": 0.07869100765306122,
+      "nilai_p": NaN,
+      "CI95_bawah": -0.15596051771784866,
+      "CI95_atas": 0.3198209552594521
+    }
+  ],
+  "korelasi": [
+    {
+      "variabel_x": "lebar_2005_m",
+      "variabel_y": "LRR_veg",
+      "n": 746,
+      "rho_Spearman": 0.08716793983299785,
+      "nilai_p": 0.017248858998116734,
+      "CI95_bawah": -0.1508939851067915,
+      "CI95_atas": 0.3138671295744727
+    },
+    {
+      "variabel_x": "lebar_2005_m",
+      "variabel_y": "LRR_air",
+      "n": 746,
+      "rho_Spearman": 0.010135769280004307,
+      "nilai_p": 0.7822553390494479,
+      "CI95_bawah": -0.23818862868237173,
+      "CI95_atas": 0.23912321602539105
+    },
+    {
+      "variabel_x": "delta_lebar_m",
+      "variabel_y": "LRR_veg",
+      "n": 746,
+      "rho_Spearman": 0.05493895719530711,
+      "nilai_p": 0.13383112872084946,
+      "CI95_bawah": -0.16005386731704058,
+      "CI95_atas": 0.2615766212873563
+    }
+  ],
+  "sumber_P01": "https://doi.org/10.5281/zenodo.24421128"
+}

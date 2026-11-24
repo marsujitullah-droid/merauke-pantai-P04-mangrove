@@ -1,0 +1,4 @@
+variabel_x,variabel_y,n,rho_Spearman,nilai_p,CI95_bawah,CI95_atas
+lebar_2005_m,LRR_veg,746,0.0872,0.0172,-0.1509,0.3139
+lebar_2005_m,LRR_air,746,0.0101,0.7823,-0.2382,0.2391
+delta_lebar_m,LRR_veg,746,0.0549,0.1338,-0.1601,0.2616

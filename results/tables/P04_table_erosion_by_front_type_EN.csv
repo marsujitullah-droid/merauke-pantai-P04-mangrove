@@ -1,0 +1,4 @@
+front_type,n_transects,median_LRR_veg,significant_erosion_pct,median_width_2005_m,median_width_2025_m
+Mangrove-fronted,256,-0.558,51.562,405.0,457.5
+Non-mangrove-fronted,490,-1.051,60.816,0.0,35.0
+All,746,-0.867,57.641,120.0,135.0
